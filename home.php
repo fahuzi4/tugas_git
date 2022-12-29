@@ -34,3 +34,4 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     // API route for input produk
     Route::post('/api_simpan_input_produk', [InputProdukController::class, 'api_simpan_input_produk']);
     Route::get('/api_get_produk', [InputProdukController::class, 'api_get_produk']);
+// menambahkan script di baris terakhir
